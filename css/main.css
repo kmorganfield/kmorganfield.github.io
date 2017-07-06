@@ -1,48 +1,17 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+  background-color: #FF0000;
 }
-nav ul, footer ul {
-    font-family:'OldLondon', 'Georgia', 'Helvetica Nueue Thin';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
+
+div#header-fixed {position:fixed; z-index:-; width:100%;}
+div#header {background:white; height:3%;}
+
+
 h1 {
-    font-size: 3em;
-    font-family:'Caslon CP', 'Georgia', 'Helvetica Nueue Thin';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+  font-family: "OldLondon"; font-size: 50pt; text-align: center; color: black;
 }
 
-ul.posts {
-    margin: 20px auto 40px;
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-}
 
 @font-face {
-  font-family: "OldLondon"
-  src: url('OldLondon.TTF');
+  font-family: "OldLondon";
+  src: url('/personal/my-website/fonts/OldLondon.ttf');
 }
